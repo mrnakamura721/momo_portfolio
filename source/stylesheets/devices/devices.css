@@ -988,6 +988,7 @@
   width: 740px;
 }
 
+
 .device-macbook .device-frame {
   background: #0d0d0d;
   border-radius: 20px;
@@ -1040,7 +1041,7 @@
   height: 4px;
   margin-top: -10px;
   position: relative;
-  width: 740px;
+/*  width: 740px;*/
   z-index: 9;
 }
 
@@ -1351,3 +1352,23 @@
   top: 50%;
   width: 6px;
 }
+
+@media(max-width: 992px) {
+  .device {
+    transform: scale(0.8);
+  }
+  .device-macbook {
+    margin: 0 auto !important;
+  }
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+/*@media(max-width: 600px) {
+  .device {
+    transform: scale(0.8);
+  }
+  .device-macbook {
+    margin: 0 auto !important;
+  }
+}*/
